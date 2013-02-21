@@ -1,0 +1,484 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #ffffff;
+	/*background: url(../images/fondo.jpg) no-repeat fixed bottom left #FFFFFF;*/
+	color: #666666;
+	font-family: Helvetica,Geneva,Arial,SunSans-Regular,sans-serif;
+}
+
+h1, h2, h3{
+margin:0px;
+padding:0px;
+}
+
+h1{
+    font: 50px Verdana, Arial, Helvetica, sans-serif;
+}
+
+h3{
+margin-bottom:10px;
+}
+a{
+
+	text-decoration:none;
+	color:#666666;
+}
+a.freelink{
+	font-size:14px;
+	font-weight:bold;
+}
+a:hover{
+	text-decoration:underline;
+}
+	
+ul{
+	list-style:none;
+}
+
+ul li{
+	margin-left:0px;
+}
+
+ul li a{
+	font-size:30px;
+}
+p{
+	text-align:justify;
+}
+
+div#node{
+	float:right;
+	text-align:right;
+	padding-top: 20px;
+}
+div#node ul li{
+        display;inline;
+        font: 40px  Helvetica,Geneva,Arial,SunSans-Regular,sans-serif;
+}
+div#node ul li a{
+        font: 40px  Helvetica,Geneva,Arial,SunSans-Regular,sans-serif;
+}
+div#node ul li a:hover{
+        text-decoration:none;
+}
+
+
+
+/* style top-menu*/
+div#helpMenu{
+	background: #F5F5F5;
+	border-top: 1px solid #C8D0D5;
+	border-bottom: 1px solid #C8D0D5;
+	padding:0px;
+	height:43px;
+	-moz-box-shadow: 0 0 5px 0 #888;
+-webkit-box-shadow: 0 0 5px 0 #888;
+box-shadow: 0 0 5px 0 #888;
+	}
+	
+	
+div.logoMenu{
+        float:left;
+        width:20%;
+		padding:5px 0px 0px 0px;
+}
+
+
+div.titleMenu{
+	float:left;
+	width:50%;
+}
+
+div.titleMenu h1{
+	text-align:left;
+	text-align:center;
+	font-size:25px;
+}
+
+div.childMenu{
+	float:right;
+	/*width:28%;
+	height:43px;
+	-moz-box-shadow: 0 0 5px 0 #888;
+	-webkit-box-shadow: 0 0 5px 0 #888;
+	box-shadow: 0 0 5px 0 #888;
+	text-align:right;
+	padding-right:25px;*/
+}
+
+div.menuindex{
+	height:43px;
+	text-align:center;
+}
+
+div.childMenu ul{
+	margin-bottom:0px;
+}
+
+div.childMenu ul li, div.menuindex ul li{
+	display:inline;
+	font-size: 16px;
+	margin-left:15px;
+}
+div.childMenu ul li a, div.menuindex ul li a{
+	font-size:16px;
+}
+
+
+a#close{
+	cursor:pointer;
+}
+
+/*end style top-menu*/
+
+.right_col{
+	width:730px;
+	margin:0px 10px;
+	float:left;
+}
+
+.left_col{
+	width:250px;
+	margin:0px 10px;
+	float:left;
+}
+
+.omega{
+	margin-left:0px;
+}
+
+.alpha{
+	margin-right:0px;
+}
+
+#loading {
+	padding: 0;
+	margin: 0;
+	
+}
+#loading img, #loading-records img {
+	margin:0;
+	margin: 25px;
+	margin-top:45px;
+	padding: 0;
+	display: none;
+}
+
+div#container{
+	width:960px;
+	margin:auto;
+}
+
+div#header{
+	padding-top:20px;
+}
+
+div#content{
+	/*padding-top:20px;*/
+	margin-top:50px;
+}
+div#content_assistant{
+	/*width:700px;
+	margin:auto;*/
+}
+
+div#footer{
+
+}
+.clear{
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0
+	}
+
+.logo {
+	width:260px;
+	height:75px;
+	float:left;
+	margin-top:7px;
+	background-image: url(../images/logo_vidium.png);
+	background-repeat: no-repeat;
+}
+.ctamenu{
+	margin-top:10px;
+	float:right;
+	width:400px;
+	padding:5px;
+	background:#EAF2F7;
+	border: 1px solid #C8D0D5;
+}
+.ctamenu ul{
+	margin:10px 0px;
+	text-align:center;
+	
+}
+.ctamenu ul li{
+	display:inline;
+	font-size:14px;
+        margin:0px 20px;
+}
+.ctamenu ul li a{	
+	font-size:14px;
+}
+.texto_info{
+	/*font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;*/
+	font-size: 12px;
+}
+
+/*****form styles*/
+div.cdrlog, div.cdr_buttons, div.cdrConsultation, div.infosystem,div.cdr_params{
+	/*-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px;*/
+}
+div.cdr_buttons_grab{
+	width:90%;
+	
+}
+
+div.cdr_form,div.cdrlog, div.infosystem{
+	
+	/*background:#FAFEFF;
+	border:solid 1px #B4B8B9;*/
+	margin-bottom:10px;
+}
+
+div.cdr_buttons{
+	/*height:20px;
+	background:#EAF2F7;
+	border: 1px solid #C8D0D5;*/
+	text-align:right;
+}
+div.cdr_buttons input {
+    padding: 5px;
+}
+div.hoverdiv{
+    	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	background:#EAF2F7;
+}
+div.activediv{
+    	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	background:#EAF2F7;
+}
+div.outdiv{
+	background:#FAFEFF;
+}
+
+input.textform {
+    border-color: #CCCCCC #DFDFDF #DFDFDF #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    height: 20px;
+    vertical-align: middle;
+    width: 388px;
+    font-size: 18px;
+    font-weight: normal;
+    padding:5px;
+    color:#666666;
+}
+
+div.cdrConsultation{
+	background:#666666;
+	color:#ffffff;
+	font-size:15pz;
+	margin-bottom:10px;
+	padding:5px;
+	padding-left:0px;
+	text-align:center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-ms-border-top-left-radius: 10px;
+	-ms-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	
+}
+.rowform {
+    margin: 5px 0;
+    width: 99%;
+    padding-left:5px;
+}
+
+.labelform {
+    float: left;
+    width: 39%;
+    font-size: 25px;
+}
+.inputform {
+    float: left;
+    width: 60%;
+    padding:5px 0px;
+    text-align:right;
+}
+
+/******************************************/
+a.dp-choose-date {
+        float: left;
+        width: 16px;
+        height: 16px;
+        padding: 0;
+        margin: 5px 3px 0;
+        display: block;
+        text-indent: -2000px;
+        overflow: hidden;
+        background: url(../images/calendar.png) no-repeat;
+}
+a.dp-choose-date.dp-disabled {
+        background-position: 0 -20px;
+        cursor: default;
+}
+
+input.dp-applied {
+        width: 140px;
+        float: left;
+}
+
+#formInputs{
+	margin:auto;
+	width:400px;
+	margin-bottom:20px;
+}
+
+/*style index*/
+div.bannerindex{
+	width:55%;
+	float:left;
+}
+div.formindex{
+	width:43%;
+	float:right;
+}
+div.cdr_form_content{
+	margin:auto; 
+	/*width:320px; 
+	padding:30px 0px;*/
+}
+
+#listData{
+	float:left; width:69%
+}
+
+#showResult ul{
+	margin-bottom:5px;
+}
+#detallData{
+	float:right;
+	width:30%;
+	border:solid 1px #B4B8B9;
+}
+#detallData ul li{
+	margin-left:0px;
+	font-size:18px;	
+}
+#detallData ul li ul{
+	margin-bottom:5px;
+}
+#detallData ul li ul li{
+	margin-left:20px;
+	font-size:18px;
+}
+
+#detallData ul li a{
+	font-size:16px;
+	color:#6FB156;
+	font-weight:bold;
+}
+
+#form-content{
+	padding:10px 0px;
+}
+
+/*Css buttom*/
+
+input[type="button"], input[type="submit"], div.buttoms{
+	display: inline-block;
+	white-space: nowrap;
+	background-color: #ddd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+	background: -webkit-linear-gradient(top, #eee, #ccc);
+	background: -moz-linear-gradient(top, #eee, #ccc);
+	background: -ms-linear-gradient(top, #eee, #ccc);
+	background: -o-linear-gradient(top, #eee, #ccc);
+	-pie-background: linear-gradient(top, #eee, #ccc);
+	background: linear-gradient(top, #eee, #ccc);
+	border: 1px solid #BBBBBB;
+	/*padding: 0 1.5em;*/
+	/*margin: 0.5em;*/
+	font: bold 1.1em/2em Arial, Helvetica;
+	text-decoration: none;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	-moz-border-radius: .2em;
+	-webkit-border-radius: .2em;
+	border-radius: .2em;
+	-moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+	box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+	/*behavior: url(../pie/PIE.htc);*/
+}
+
+input[type="button"]:hover, input[type="submit"]:hover{
+	background-color: #eee;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+	background: -webkit-linear-gradient(top, #fafafa, #ddd);
+	background: -moz-linear-gradient(top, #fafafa, #ddd);
+	background: -ms-linear-gradient(top, #fafafa, #ddd);
+	background: -o-linear-gradient(top, #fafafa, #ddd);
+	background: linear-gradient(top, #fafafa, #ddd);
+	-pie-background: linear-gradient(top, #fafafa, #ddd);
+	/*behavior: url(../pie/PIE.htc);*/
+}
+
+input[type="button"]:active,  input[type="submit"]:active{
+	-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	position: relative;
+	top: 1px;
+	/*behavior: url(../pie/PIE.htc);*/
+}
+
+input[type="button"]:focus,  input[type="submit"]:focus{
+	outline: 0;
+	background: #fafafa;
+}
+
+/* Buttons and inputs */
+input[type="button"], input[type="submit"]{
+	cursor: pointer;
+	overflow: visible; /* removes extra side spacing in IE */
+}
+
+/* removes extra inner spacing in Firefox */
+input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner{
+	border: 0;
+	padding: 0;
+}
+
+/* If line-height can't be modified, then fix Firefox spacing with padding */
+input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner{
+	padding: .4em;
+}
+
+/* The disabled styles */
+input[type="button"][disabled], input[type="button"][disabled]:hover, input[type="button"].disabled, input[type="button"].disabled:hover, input[type="submit"][disabled], input[type="submit"][disabled]:hover, input[type="submit"].disabled, input[type="submit"].disabled:hover{
+	background: #eee;
+	color: #aaa;
+	border-color: #aaa;
+	cursor: default;
+	text-shadow: none;
+	position: static;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	/*behavior: url(../pie/PIE.htc);*/
+}

@@ -1,0 +1,31 @@
+Vidium is a ip videosurveillance software. Based on LAMP envirorment I try to meet ip videosurveillance and web. This project is DISCONTINUED but if you are interested in live streaming feel free to test it. Main features are:
+
+- Auto install Axis Communications, Vivotek and 3S Vision cameras
+- Manual install of any mjpeg-h264 dual stream camera
+- Live streaming your cameras in any browser WITHOUT plugins or ActiveX instalation (over MJPEG)
+- Recording (24/7) and playback for h264 cameras also without plugins or ActiveX
+- Manage users and roles
+- Standalone NVR .ISO will be available soon
+
+FAQ
+---
+
+How can I try it?
+Create a VM with the .ISO, then set this project on a webserver and enjoy your cameras anywhere
+
+Do you have any manual or documentation?
+Check http://vidium.es
+
+What happend with the company?
+We didn´t success, we close and I release the webserver
+
+Can I sell it?
+No. All code under this site is released for free under non-commercial license. You can fork, edit or improve it under your own risk. But you can´t sell it.
+
+Are you going to upload the NVR.ISO?
+Only under request, takes some work to clean all the password so I will only do it if some people is interested on it.
+
+How works the .ISO?
+It´s a customized Ubuntu ISO + live streaming server
+
+If you have any question feel free to ask, hope somebody find it usefull.

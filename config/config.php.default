@@ -1,0 +1,32 @@
+<?php
+// PATHS GENERAL
+//define('PATH_DOCUMENT_ROOT', 'C:\wamp\www'.DS);
+define('PATH_DOCUMENT_ROOT', $_SERVER["DOCUMENT_ROOT"].'/');
+define('PATH_CLASS', PATH_DOCUMENT_ROOT . 'class/');
+define("PATH_WEBADMIN", PATH_DOCUMENT_ROOT . 'webadmin/');
+define("PATH_RESOURCE", PATH_WEBADMIN . 'resource/');
+
+// URLS
+define("URL", "http://live.vidium.es/");
+
+// STREAM
+define('MAX_TIME_INACTIVE', '30');
+
+// Constantes del envio de emails de los crones
+define("EMAIL_SISTEMAS","------");
+define("SMTP_SERVER","-----");
+define("SMTP_SERVER_PORT","-----");
+define("SMTP_USER_NAME","-----");
+define("SMTP_PASSWORD","-----");
+
+/* TOKEN ACTIVADO */
+define("TOKEN_ACTIVADO", true);
+
+/* DATABASE */
+define("DB_HOST", "-----");
+define("DB_USERNAME", "-----");
+define("DB_PASSWORD", "-----");
+define("DB_NAME", "-----");
+
+require_once PATH_CLASS . "DataBase.class.php";
+?>
